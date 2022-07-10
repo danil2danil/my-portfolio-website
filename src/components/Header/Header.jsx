@@ -7,9 +7,7 @@ function Header() {
         <header className="header">
             <div className="container">
                 <div className="header__inner">
-                    <Link to="/">
-                        <h1 className="header__logo">My Portfolio</h1>
-                    </Link>
+                    <Link to="/" className='header__logo'>My portfolio</Link>
                     <nav className="header__nav">
                         <Link className='header__nav-item' to="/progects">Проекты</Link>
                         <Link className='header__nav-item' to="/about">Обо мне</Link>
