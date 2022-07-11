@@ -1,0 +1,32 @@
+@import '../../style-vars/fonts';
+
+.footer {
+    padding: 30px 15px;
+    background: $primary;
+
+    &__logo {
+        color: $secondary;
+        text-transform: uppercase;
+        line-height: normal;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    &__list {
+        line-height: 30px;
+        font-weight: 300;
+        &-title{
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 15px;
+        }
+        &-link:visited,
+        :active,
+        :link {
+            color: $secondary;
+        }
+        &-link:hover{
+            color: $acient;
+        }
+    }
+}

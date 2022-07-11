@@ -1,17 +1,19 @@
 @import '../../style-vars/colors.scss';
 
 .header {
+    background: $primary;
     &__inner {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 50px;
+        padding: 15px 0px;
     }
 
     &__logo {
         text-transform: uppercase;
-        color: rgb(231, 231, 231);
+        color: $secondary;
         font-size: 38px;
+        line-height: normal;
         font-weight: 700;
         line-height: normal;
     }

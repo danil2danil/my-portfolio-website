@@ -1,11 +1,14 @@
 import React from 'react'
 import Header from '../components/Header/Header'
+import Footer from '../components/Footer/Footer'
 
 function Home() {
   return (
     <>
-      <Header />
-      <h1 style={{textAlign: 'right'}}>Area</h1>
+      <div className='wrapper'>
+        <Header />
+        <Footer />
+      </div>
     </>
   )
 }
