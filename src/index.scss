@@ -47,6 +47,7 @@ body{
 .container{
     max-width: 1600px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .wrapper{
@@ -56,4 +57,19 @@ body{
 }
 .footer{
     margin-top: auto;
+}
+
+.container-fluid{
+    max-width: 1920px;
+}
+
+.btn{
+    @extend %title-font;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px 50px;
+    background: $acient;
+    color: white;
+    border-radius: 15px;
 }

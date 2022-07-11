@@ -1,0 +1,64 @@
+@import '../../style-vars/fonts';
+
+.intro {
+    &__inner {
+        position: relative;
+        min-height: 1000px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__content {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+    }
+
+    &__blur {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        background: rgba(0, 0, 0, 0.596);
+    }
+
+    &__title {
+        @extend %title-font;
+        text-transform: uppercase;
+        margin: 0 auto;
+        max-width: 630px;
+        font-size: 56px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+
+    &__subtitle {
+        max-width: 500px;
+        margin: 0px auto 35px;
+    }
+
+    @media(max-width: 700px) {
+        &__inner {
+            min-height: 700px;
+        }
+
+        &__title {
+            max-width: 610px;
+            font-size: 46px;
+            margin-bottom: 40px;
+        }
+    }
+
+    @media(max-width: 500px) {
+        &__title {
+            max-width: 300px;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+        &__subtitle {
+            max-width: 400px;
+        }
+    }
+}

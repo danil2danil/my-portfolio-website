@@ -1,8 +1,13 @@
 @import '../../style-vars/fonts';
 
 .footer {
-    padding: 30px 15px;
+    padding: 30px 0px;
     background: $primary;
+
+    &__inner{
+        display: flex;
+        flex-direction: column;
+    }
 
     &__logo {
         color: $secondary;
