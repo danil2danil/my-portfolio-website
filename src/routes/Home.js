@@ -5,6 +5,7 @@ function Home() {
   return (
     <>
       <Header />
+      <h1 style={{textAlign: 'right'}}>Area</h1>
     </>
   )
 }
