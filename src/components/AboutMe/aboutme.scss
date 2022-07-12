@@ -1,0 +1,51 @@
+@import '../../style-vars/fonts.scss';
+
+.about {
+    &__inner {
+        position: relative;
+        margin-top: 110px;
+        min-height: 550px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__blur-wrapper {
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        background: rgba(black, 0.5);
+    }
+
+    &__title {
+        position: relative;
+        @extend %title-font;
+        font-size: 68px;
+        font-weight: 700;
+        line-height: normal;
+        max-width: 600px;
+        text-align: center;
+    }
+
+    &__content {
+        padding: 100px 0px;
+
+        &-title {
+            @extend %title-font;
+            font-size: 48px;
+            font-weight: 400;
+            margin-bottom: 35px;
+        }
+        &-text{
+            margin-bottom: 20px;
+        }
+        &-list{
+            @extend %title-font;
+            font-weight: 400;
+            font-size: 32px;
+            line-height: 48px;
+        }
+    }
+}

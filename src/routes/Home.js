@@ -9,11 +9,11 @@ function Home() {
     <>
       <div className='wrapper'>
         <Header />
-        <Intro 
-          title={"Привет, меня зовут Данил. Я frontend-разработчик"} 
+        <Intro
+          title={"Привет, меня зовут Данил. Я frontend-разработчик"}
           subtitle={"Кликнув на кнопку ниже вы можете подробнее ознакомиться с моими проектами."}
           background={IntroBg}
-          />
+        />
         <Footer />
       </div>
     </>

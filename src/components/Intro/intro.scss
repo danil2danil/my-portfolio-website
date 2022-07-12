@@ -3,7 +3,7 @@
 .intro {
     &__inner {
         position: relative;
-        min-height: 1000px;
+        min-height: 1220px;
         display: flex;
         align-items: center;
     }
@@ -41,7 +41,7 @@
 
     @media(max-width: 700px) {
         &__inner {
-            min-height: 700px;
+            min-height: 920px;
         }
 
         &__title {
